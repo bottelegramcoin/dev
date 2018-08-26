@@ -1,7 +1,6 @@
 <?php
 	$var=5;
 ?>
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
