@@ -1,4 +1,6 @@
 <?php
+	$var=5;
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -465,4 +467,3 @@
 
   </body>
 </html>
-?>
