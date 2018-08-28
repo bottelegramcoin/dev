@@ -931,29 +931,23 @@ background-position-x: 10px;
   background-position-y: -395px;
   background-position-x: -20px;
 }
-.tl_main_card_bloger{
- background-image: url(../img/bloger.png);
+.tl_main_card_ton{
+ background-image: url(../img/mainblocton.png);
   background-position-y: 15px;
   background-position-x: 20px;
   background-size: 130px;
 }
-.tl_main_card_ton{
- background-image: url(../img/mainblocton.png);
-  background-position-y: 15px;
-  background-position-x: ;
-  background-size: 150px;
+.tl_main_card_bloger{
+ background-image: url(../img/bloger.png);
+  background-size: 160px;
 }
 .tl_main_card_trader{
  background-image: url(../img/trader.png);
-  background-position-y: 15px;
-  background-position-x: ;
-  background-size: 150px;
+  background-size: 160px;
 }
 .tl_main_card_invester{
- background-image: url(../img/mainblocton.png);
-  background-position-y: 15px;
-  background-position-x: ;
-  background-size: 150px;
+ background-image: url(../img/invest.png);
+  background-size: 160px;
 }
 h3.tl_main_card_header {
   color: #a19679;
