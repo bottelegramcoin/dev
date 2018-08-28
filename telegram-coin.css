@@ -24,8 +24,14 @@ a:hover {
   .container {
     width: 750px;
   }
-  .tl_text_desctop_none_mobail{
+  .tl_text_desctop_none_mobail {
     padding-top: 30.5%;
+  }
+}
+@media (max-width: 768px) {
+  .mobile_main_content {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media (min-width: 992px) {
@@ -200,7 +206,11 @@ a:hover {
   padding-left: 0;
   padding-right: 20px;
 }
-
+#disk_ul{
+  list-style-type: disc;
+  padding-left: 0px;
+  margin-left: 5px;
+}
 
 
 .breadcrumb > li {
@@ -833,9 +843,8 @@ a:hover .icon-twitter {
 }
 .tl_main_card {
   background: url(../img/tl_card_fast.gif) 0 0 no-repeat;
-  background-size: 160px 160px;
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
 }
 
@@ -868,31 +877,66 @@ a:hover .icon-twitter {
 }
 
 .tl_main_card_connect {
-  background-image: url(../img/t_logo.png);
+  background-image: url(../img/mainblocicon1.png);
+  background-position-y: -395px;
+  background-position-x: -20px;
 }
 .tl_main_card_coordinate {
-  background-image: url(../img/t_logo.png);
+  background-image: url(../img/mainblocicon1.png);
+background-position-y: -205px;
+    background-position-x: -20px;
 }
 .tl_main_card_synchronize {
-  background-image: url(../img/t_logo.png);
+  background-image: url(../img/mainblocicon.png);
+  background-position-y: -205px;
+    background-position-x: -220px;
 }
 .tl_main_card_build {
-  background-image: url(../img/t_logo.png);
+  background-image: url(../img/mainblocicon3.png);
+  background-position-y: -15px;
+    background-position-x: -220px;
 }
 .tl_main_card_encrypt {
-  background-image: url(../img/t_logo.png);
-}
+  background-image: url(../img/mainblocicon3.png);
+background-position-y: -205px;
+    background-position-x: -220px;}
 .tl_main_card_send {
-  background-image: url(../img/t_logo.png);
+  background-image: url(../img/mainblockchain.png);
+      background-size: 140px;
+background-position-x: 10px;
 }
 .tl_main_card_process {
-  background-image: url(../img/t_logo.png);
+  background-image: url(../img/mainblocicon3.png);
+  background-position-y: -395px;
+    background-position-x: -220px;
 }
 .tl_main_card_destruct {
-  background-image: url(../img/t_logo.png);
+  background-image: url(../img/mainblocicon3.png);
+  background-position-y: -15px;
+    background-position-x: -20px;
 }
 .tl_main_card_store {
-  background-image: url(../img/t_logo.png);
+  background-image: url(../img/mainblocicon3.png);
+  background-position-y: -205px;
+    background-position-x: -420px;
+}
+.tl_main_card_secure {
+  background-image: url(../img/mainblocsecure.png);
+  background-position-y: 15px;
+  background-position-x: 15px;
+  background-size: 130px;
+}
+.tl_main_card_blog{
+  background-image: url(../img/bloger.png);
+  background-size: 160px;
+}
+.tl_main_card_trade{
+  background-image: url(../img/trader.png);
+  background-size: 160px;
+}
+.tl_main_card_invest{
+  background-image: url(../img/invest.png);
+  background-size: 160px;
 }
 
 h3.tl_main_card_header {
